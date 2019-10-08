@@ -10,6 +10,23 @@ This is a shared repository between [Rissalat Ahmed](https://github.com/rkapdi) 
 
 
 
+## Dependancies 
+* Python 3.6
+* Torch
+* Torchvision
+* Scipy Version 1.1.0
+
+## Pretrained Model and Word Map
+From Sagar Vinodbabu's [repository](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning) I found this great [pretrained model with wordmap](https://drive.google.com/drive/folders/189VY65I_n4RTpQnmLGj7IzVnOF6dmePC)
+
+## Getting Started
+Ideally you would create this environment in a fresh anaconda virtual environment
+1. Install the dependancies, pretrained model and word map
+2. Clone the repo
+`git clone https://github.com/saniyanafees6/ai-vision.git`
+3. Open Terminal in the folder and enter the following command:
+`python -W ignore caption.py --img='/path/to/image.jpg' --model='path/to/BEST_checkpoint_coco_5_cap_per_img_5_min_word_freq.pth.tar' --word_map='path/to/WORDMAP_coco_5_cap_per_img_5_min_word_freq.json' --beam_size=5`
+4. *more steps to come*
 
 ## Credits
 ### Github Repositories
