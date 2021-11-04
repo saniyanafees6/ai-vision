@@ -1,14 +1,9 @@
 # AI Vision
 
-This is a shared repository between [Rissalat Ahmed](https://github.com/rkapdi) and [Saniya Nafees](https://github.com/saniyanafees6). Our goal here is to create a fullstack web application with payment integration. 
-
 ## Our Idea
-*more stuff to come*
 * User uploads the image
 * We generate an image caption, which becomes an input to GPT2
 * GPT2 generates text based on the input received from the image caption
-
-
 
 ## Dependancies 
 * Python 3.6
